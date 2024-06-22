@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js",
+    "lint": "npx prettier . --write"
   },
   "author": "Miranda Honkanen",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "prettier": "3.3.2"
+  }
 }
