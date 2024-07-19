@@ -2,5 +2,8 @@ POST http://localhost:3001/api/restaurants
 Content-Type: application/json
 
 {
-    "name": "Round"
+    "name": "Espresso house",
+    "visited": false,
+    "review": 0,
+    "tags": ["669aa112177c39eb55edec3d"]
 }
