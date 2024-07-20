@@ -6,5 +6,7 @@
 |         |       |             Initializing MongoDB              |
 | 18.7.24 |   1   |                Creating routes                |
 | 19.7.24 |   1   | Adding schemas and routes for Dishes and Tags |
+| 20.7.24 |   1   |                Creating routes                |
+|         |       |                Frontend setup                 |
 
-**Total:** 3h
+**Total:** 4h
