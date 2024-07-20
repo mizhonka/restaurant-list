@@ -4,7 +4,7 @@ const Restaurant = require("../models/restaurant");
 restaurantRouter.get("/", async (request, response) => {
   const restaurants = await Restaurant.find({}).populate("tags", {
     title: 1,
-  });
+  }).populate("dishes", {name: 1});
   response.json(restaurants);
 });
 
