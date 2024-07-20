@@ -6,7 +6,7 @@ const app = express();
 
 const restaurantRouter = require("./controllers/restaurants");
 const tagRouter = require("./controllers/tags");
-const dishRouter=require("./controllers/dishes")
+const dishRouter = require("./controllers/dishes");
 
 mongoose.connect(config.MONGODB_URI);
 
@@ -15,6 +15,6 @@ app.use(express.json());
 
 app.use("/api/restaurants", restaurantRouter);
 app.use("/api/tags", tagRouter);
-app.use("/api/dishes", dishRouter)
+app.use("/api/dishes", dishRouter);
 
 module.exports = app;
